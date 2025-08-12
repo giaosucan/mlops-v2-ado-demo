@@ -16,8 +16,7 @@ jobs:
         environment_file:  mlops/azureml/train/train-env.yml
         conda_file: data-science/environment/train-conda.yml
       secrets:
-          creds: ${{secrets.AZURE_CREDENTIALS}}
-          azure_creds: ${{ secrets.AZURE_CREDENTIALS }}
+          creds: ${{secrets.AZURE_CREDENTIALS}}     
           clientId: ${{ secrets.ARM_CLIENT_ID }}
           clientSecret: ${{ secrets.ARM_CLIENT_SECRET }}
           subscriptionId: ${{ secrets.ARM_SUBSCRIPTION_ID }}
