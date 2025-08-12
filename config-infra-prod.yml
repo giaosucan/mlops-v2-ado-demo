@@ -12,7 +12,7 @@ variables:
   location: eastus
   terraform_st_location: eastus
   terraform_st_resource_group: rg-mlops-sp-terraform
-  terraform_st_storage_account: mlopstfstate
+  terraform_st_storage_account: mlopstfstatefpt
   terraform_st_container_name: tfstate
   terraform_st_key: mlops-tfstate
   environment: prod
