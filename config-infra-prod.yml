@@ -15,7 +15,7 @@ variables:
   terraform_st_storage_account: mlopstfstatefpt
   terraform_st_container_name: tfstate
   terraform_st_key: mlops-tfstate
-  terraform_workingdir: 'terraform'
+  terraform_workingdir: '.'
   terraform_version: 1.5.7
   environment: prod
   enable_aml_computecluster: true
