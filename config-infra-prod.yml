@@ -37,6 +37,8 @@ variables:
   # DO NOT TOUCH
 
   # For pipeline reference
-  resource_group: rg-$(namespace)-$(postfix)-$(environment)
-  aml_workspace: mlw-$(namespace)-$(postfix)-$(environment)
+  # resource_group: rg-$(namespace)-$(postfix)-$(environment)
+  # aml_workspace: mlw-$(namespace)-$(postfix)-$(environment)
+  resource_group: mlops
+  aml_workspace: mlklowen
 
